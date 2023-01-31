@@ -1,0 +1,7 @@
+1.docker 拉取镜像
+2.docker 启动脚本 
+    docker run --name postpresql --privileged -e POSTGRES_PASSWORD=password -p 54321:5432 -v D:\data\postgresData:/var/lib/postprosql/data -d postgres
+3.user： postgres  password: password
+4.如何连接-->映射在54321端口上，所以连接串的端口应写为54321
+ 
+
